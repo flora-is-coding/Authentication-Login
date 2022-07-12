@@ -1,0 +1,51 @@
+
+// Collection
+{
+    "id": 1,
+    "title": "My books",
+    "description": "more",
+    "category_id": 1
+}
+
+{
+    "tabel_title": "Category",
+    {"id": 1,
+    "name": "books"
+    }
+    ,
+    {"id": 2,
+    "name": "films"
+    }
+    ,
+    {"id": 3,
+    "name": "serials"
+    }
+    ,
+    {"id": 4,
+    "name": "audiobooks"
+    }
+}
+
+{
+    "tabel_title": "Collection_Key",
+    { "id": 1,
+    "collection_id": 1,
+    "name": "title",
+    "required": true
+    },
+    { "id": 1,
+    "collection_id": 2,
+    "name": "author",
+    "required": true
+    },
+    { "id": 1,
+    "collection_id": 2,
+    "name": "genre",
+    "required": false
+    },
+    { "id": 1,
+    "collection_id": 4,
+    "name": "published_at",
+    "required": true
+    }
+}

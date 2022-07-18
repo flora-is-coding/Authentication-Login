@@ -1,6 +1,6 @@
 .home__content {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: column nowrap;
     justify-content: center;
     margin: 1.5rem 0;
 }

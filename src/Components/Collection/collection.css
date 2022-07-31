@@ -1,0 +1,26 @@
+table,
+td {
+    border: 1px solid rgb(201, 201, 201);
+}
+
+thead,
+tfoot {
+    background-color: rgb(209, 209, 209);
+    color: black;
+}
+
+.collection__content {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.collection__body {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: flex-start;
+}
+
+.collection__body > div {
+    border-bottom: 1px solid black;
+    margin: 1rem;
+}

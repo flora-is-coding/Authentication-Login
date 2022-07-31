@@ -1,0 +1,42 @@
+{
+    "id":2,
+    "title":"My books",
+    "description":"There are my favourite books",
+    "authorId":1,
+    "categoryId":1,
+    "keys":[
+        {
+            "id":1,
+            "collectionId":2,
+            "name":"title",
+            "required":true,
+            "type":"INLINE"
+        },
+        {"id":2,
+        "collectionId":2,
+        "name":"author",
+        "required":true,
+        "type":"INLINE"
+        },
+        {
+            "id":3,
+            "collectionId":2,
+            "name":"genre",
+            "required":false,
+            "type":"INLINE"
+        },
+        {
+            "id":4,
+            "collectionId":2,
+            "name":"published_at",
+            "required":false,
+            "type":"DATE"
+        }
+    ],
+    "items":[
+        {
+            "id":1,
+            "collectionId":2
+        }
+    ]
+}

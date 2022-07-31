@@ -5,6 +5,7 @@ import NavBar from './Components/Navigation/navbar';
 import Registration from './Components/Registration/registration';
 import Login from './Components/Login/login';
 import Main from './Components/Main/main';
+import Collection from './Components/Collection/collection';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         <Route path='registration' element={<Registration />} />
         <Route path='login' element={<Login />} />
         <Route path='main' element={<Main />} />
-        {/* <Route path='collection' element={<Collection />} /> */}
+        <Route path='collection' element={<Collection />} />
+        
       </Routes>
     </div>
   );

@@ -9,6 +9,7 @@ export default function Home () {
             <div className="home__content">
                 <div className="title__content">
                     <h1>Hello and Welcome</h1>
+                    <p>You can create a collection of everything here</p>
                 </div>
                 <Main />
             </div>

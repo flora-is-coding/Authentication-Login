@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react";
+import CollectionItem from "../CollectionItem/collection_item";
 import './main.css';
 
 export default function Main () {
     const [collection, setCollection] = useState('')
 
     useEffect(() => {
-        fetch('http://localhost:3000/collectionA.json')
+        fetch('https://7a71-2001-871-253-b38b-4d3c-bc01-ca39-450d.eu.ngrok.io/collections/2')
             .then((response) => response.json())
             .then((data) => setCollection(data))
     },[])
@@ -19,7 +20,8 @@ export default function Main () {
                     <h3 className="top5__title">The most content</h3>
                     <div className="top5__content">
                     {collection &&
-                        <p>{collection.title}</p>}
+                        <CollectionItem />
+                    }
                     </div>
                 </div>
                 <div className="main__tag-cloud">

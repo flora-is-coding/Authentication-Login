@@ -17,19 +17,19 @@ export default function Main () {
         <div className="main__box">
             <div className="main__content">
                 <div className="main__top5">
-                    <h3 className="top5__title">The most content</h3>
+                    <h3 className="title">Most contributed to</h3>
                     <div className="top5__content">
                     {collection &&
-                        <CollectionItem />
+                        <CollectionItem collection={collection}/>
                     }
                     </div>
                 </div>
                 <div className="main__tag-cloud">
-                    <h3 className="tag-cloud__title">Tag Cloud</h3>
+                    <h3 className="title">Tags</h3>
                     <div className="tag-cloud__content"></div>
                 </div>
                 <div className="main__latest">
-                    <h3 className="latest__title">Latest</h3>
+                    <h3 className="title">Recent</h3>
                     <div className="latest__content"></div>
                 </div>
             </div>
